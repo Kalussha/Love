@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi hermosa Yaneli</title>
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♥️</text></svg>">
+    <!-- Aseguramos las mejores etiquetas SEO y meta -->
+    <meta name="description" content="Una invitación muy especial para Yaneli.">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fuentes de Google: Playfair Display (formal/elegante) y Poppins (limpia) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animación de fondo -->
+    <div class="background-animation">
+        <ul class="floating-elements">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- Control de música de fondo -->
+    <button id="music-btn" class="music-control">
+        🎵 Reproducir Música
+    </button>
+    <audio id="bg-music" loop>
+        <!-- Reemplaza "cancion.mp3" con el nombre de archivo real de tu canción -->
+        <source src="cancion.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Contenedor Principal (Tarjeta Glassmorphism) -->
+    <div class="card-container">
+        <div class="glass-card">
+            <h1 class="title">Hola, mi niña hermosa ♥️</h1>
+            <p class="message">
+                He estado pensando mucho en pedirte esto de una manera especial y con los proyectos que tengo se me
+                ocurrio algo medio original sabes.<br><br>
+                ¿Me concederías el honor de tener una cita conmigo este sábado?
+            </p>
+            <div class="buttons">
+                <button id="btn-yes" class="btn btn-primary">Sí, me encantaría</button>
+                <button id="btn-no" class="btn btn-secondary">No, gracias</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script de Confetti para la celebración -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <!-- Lógica principal -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
